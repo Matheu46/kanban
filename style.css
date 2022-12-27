@@ -1,0 +1,77 @@
+/* pegar a nunito depois */
+html{
+  font-family: 'Nunito';
+}
+
+body{
+  background: #130f0d;
+  color: white;
+}
+
+.boards {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.board{
+  background: #141316;
+  border: 1px solid #fd951f11;
+  border-radius: 4px;
+}
+.board h3{
+  padding: 16px;
+  margin: 0;
+  color: #fd951fcc;
+}
+
+.dropzone {
+  padding: 16px;
+  min-width: 282px;
+  min-height: 200px;
+}
+
+.destaque {
+  background: #fd951f08;
+}
+.card, .dropzone {
+  transition: 500ms;
+  /* ver como faz ease-in */
+}
+.is-dragging{
+  cursor: move;
+  opacity: 0.3;
+}
+
+.over {
+  background: #4cd13711;
+}
+
+.card {
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px #fd951fcc;
+  width: 250px;
+  margin: 25px 0px;
+  border-radius: 4px;
+  font-weight: 600px;
+  font-size: 18px;
+  background: #1a1a1c;
+}
+
+.status{
+  width: 30px;
+  height: 8px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.status.green {
+  background: #23fd8c;
+}
+.status.blue{
+  background: #33adff
+}
+.status.red{
+  background: red;
+}
+
